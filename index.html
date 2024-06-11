@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupa</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Loja Tavares Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Clientes Vips</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Produtos de inverno</h2>
+            <div class="produtos">
+                <div class="produto-item">
+                    <img src="imagens/bobojaco/bobojaco-hugo-300x.jpeg" alt="Bobojaco Hugo Boss">
+                    <h3>Bobojaco Hugo Boss</h3>
+                    <p>R$ 450,00</p>
+                    <button onclick="addToCart('Bobojaco Hugo Boss', 450)">Comprar</button>
+                </div>
+                <div class="produto-item">
+                    <img src="imagens/bobojaco/bobojaco-ea7300.jpg" alt="Bobojaco Emporio Armani">
+                    <h3>Bobojaco Emporio Armani</h3>
+                    <p>R$ 450,00</p>
+                    <button onclick="addToCart('Bobojaco Emporio Armani', 450)">Comprar</button>
+                </div>
+                <div class="produto-item">
+                    <img src="imagens/bobojaco/bobojaco-lacoste300.jpeg" alt="Bobojaco Lacoste">
+                    <h3>Bobojaco Lacoste</h3>
+                    <p>R$ 450,00</p>
+                    <button onclick="addToCart('Bobojaco Lacoste', 450)">Comprar</button>
+                </div>
+                <div class="produto-item">
+                    <img src="imagens/bobojaco/bobojaco-nike300.jpg" alt="Bobojaco Nike">
+                    <h3>Bobojaco Nike</h3>
+                    <p>R$ 450,00</p>
+                    <button onclick="addToCart('Calça Jeans', 100)">Comprar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <main>
+        <section>
+            <h2>Calças Jeans</h2>
+            <div class="produtos">
+                <div class="produto-item">
+                    <img src="imagens/calça/jeans-azulclaro300.JPG" alt="Calça-Jeans azul claro">
+                    <h3>Calça-Jeans azul claro</h3>
+                    <p>R$ 99,00</p>
+                    <button onclick="addToCart('Calça-Jeans azul claro', 99)">Comprar</button>
+                </div>
+                <div class="produto-item">
+                    <img src="imagens/calça/jenas bege300.jpg" alt="Calça-Jeans bege">
+                    <h3>Calça-Jeans bege</h3>
+                    <p>R$ 99,00</p>
+                    <button onclick="addToCart('Calça-Jeans bege', 99)">Comprar</button>
+                </div>
+                <div class="produto-item">
+                    <img src="imagens/calça/jeans-branca300.jpg" alt="Calça-Jeans branca">
+                    <h3>Calça-Jeans branca</h3>
+                    <p>R$ 99,00</p>
+                    <button onclick="addToCart('Calça-Jeans branca', 99)">Comprar</button>
+                </div>
+                <div class="produto-item">
+                    <img src="imagens/calça/Jeans-preta.jpg" alt="Calça-Jeans preta">
+                    <h3>Calça-Jeans preta</h3>
+                    <p>R$ 99,00</p>
+                    <button onclick="addToCart('Calça-Jeans preta', 99)">Comprar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <main>
+        <section>
+            <h2>Camisetas importadas</h2>
+            <div class="produtos">
+                <div class="produto-item">
+                    <img src="imagens/camisas/ea300.jpg" alt="Camiseta importada Emporio Armani">
+                    <h3>Camiseta importada Emporio Armani</h3>
+                    <p>R$ 80,00</p>
+                    <button onclick="addToCart('Camiseta importada Emporio Armani', 80)">Comprar</button>
+                </div>
+                <div class="produto-item">
+                    <img src="imagens/camisas/hugo300.jpg" alt="Camiseta importada Hugo Boss">
+                    <h3>Camiseta importada Hugo Boss</h3>
+                    <p>R$ 80,00</p>
+                    <button onclick="addToCart('Camiseta importada Hugo Boss', 80)">Comprar</button>
+                </div>
+                <div class="produto-item">
+                    <img src="imagens/camisas/lacoste300.jpg" alt="Camiseta importada Lacoste">
+                    <h3>Camiseta importada Lacoste</h3>
+                    <p>R$ 80,00</p>
+                    <button onclick="addToCart('Camiseta importada Lacoste', 80)">Comprar</button>
+                </div>
+                <div class="produto-item">
+                    <img src="imagens/camisas/nike300.jpg" alt="Camiseta importada Nike">
+                    <h3>Camiseta importada Nike</h3>
+                    <p>R$ 80,00</p>
+                    <button onclick="addToCart('Camiseta importada Nike', 80)">Comprar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <main>
+        <section>
+            <h2>Tênis</h2>
+            <div class="produtos">
+                <div class="produto-item">
+                    <img src="imagens/tenis/adidascampus300.jpg" alt="Adidas Campus">
+                    <h3>Adidas Campus</h3>
+                    <p>R$ 350,00</p>
+                    <button onclick="addToCart('Adidas Campus', 350)">Comprar</button>
+                </div>
+                <div class="produto-item">
+                    <img src="imagens/tenis/Yesszy boosty300.jpg" alt="Yeezy Boosty">
+                    <h3>Yeezy Boosty</h3>
+                    <p>R$ 350,00</p>
+                    <button onclick="addToCart('Yeezy Boosty', 350)">Comprar</button>
+                </div>
+                <div class="produto-item">
+                    <img src="imagens/tenis/air-force300.jpg" alt="Air-force">
+                    <h3>Air-force</h3>
+                    <p>R$ 350,00</p>
+                    <button onclick="addToCart('Air-force', 350)">Comprar</button>
+                </div>
+                <div class="produto-item">
+                    <img src="imagens/tenis/vapormax300.jpg" alt="Vapor-max">
+                    <h3>Vapor-max</h3>
+                    <p>R$ 350,00</p>
+                    <button onclick="addToCart('Vapor-max', 350)">Comprar</button>
+                </div>
+                
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2024 Loja de Roupa</p>
+        </footer>
+        <script src="script.js"></script>
+       
+    </main>
+    </body>
+    </html>
